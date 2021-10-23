@@ -4,7 +4,7 @@
 This Docker image contains the latest version of REMnux and SIFT toolkits on Ubuntu 20.04 (focal).
 REMnux®, created by Lenny Zeltser, is a toolkit for reverse-engineering and analyzing malware.
 SIFT, created by Rob Lee, is a toolkit for investigating memory, network, registry, and file system.
-This image combines the toolkits together to help forensics investigators use them in one place.
+This image combines the toolkits together to help forensics investigators use them in one place. The Dockerfile of this image is included in this GitHub repository and the final image of this Dockerfile can be pulled from the Docker Hub: https://hub.docker.com/r/yara0/remnux-sift
 
 ## Maintainer
 [yara0](https://github.com/yara0)
