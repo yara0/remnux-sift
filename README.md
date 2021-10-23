@@ -41,6 +41,3 @@ Run the remnux-sift image as a Docker Container in the background and map local 
 ```bash
 $ docker run -d -p 22:22 yara0/remnux-sift
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
