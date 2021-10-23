@@ -28,12 +28,12 @@ $ sudo docker exec -it yara0/remnux-sift bash
 
 Run the remnux-sift image as an interactive Docker Container in the background with shared(mounted) folder:
 
-```bash
 Note: 
 - replace <local_folder> with the folder's path you want to mount as a shared folder.
 - replace desired_container_name> with the name of your container. The name tag is optional and you can remove it. 
 - In case you do not want to run it in the background, remove (d) option
 
+```bash
 $ sudo docker run --name=<desired_container_name> -dit -u remnux-sift -v <local_folder>:/home/remnux-sift/shared yara0/remnux-sift bash
 ```
 
